@@ -1,0 +1,6 @@
+node_modules/
+build/background.js
+build/background.js.map
+build/popup/bundle.js
+build/popup/bundle.js.map
+.DS_Store

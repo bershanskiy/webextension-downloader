@@ -1,0 +1,17 @@
+{
+  "name": "WebExtension Downloader",
+  "manifest_version": 3,
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "downloads"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "browser_style": true,
+    "default_popup": "popup/index.html"
+  }
+}
